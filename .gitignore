@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Eureka
+/Discovery.Zookeeper/obj
+/Eureka/bin/Debug/netstandard2.1
+/Eureka/obj
+/ZooProxy/obj
