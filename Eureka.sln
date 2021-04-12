@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discovery", "Eureka\Discovery.csproj", "{DB80252B-0902-4EF8-8F49-82789112781E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discovery", "Eureka\Discovery.csproj", "{DB80252B-0902-4EF8-8F49-82789112781E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discovery.Zookeeper", "Discovery.Zookeeper\Discovery.Zookeeper.csproj", "{B1D8094E-C910-4B7C-A6E7-8BCF17066E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discovery.Zookeeper", "Discovery.Zookeeper\Discovery.Zookeeper.csproj", "{B1D8094E-C910-4B7C-A6E7-8BCF17066E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooProxy", "ZooProxy\ZooProxy.csproj", "{7EF80AC2-D19C-48E5-AEA1-71F6E535C19D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooProxy", "ZooProxy\ZooProxy.csproj", "{7EF80AC2-D19C-48E5-AEA1-71F6E535C19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZookeeperProxy", "ZookeeperProxy\ZookeeperProxy.csproj", "{48820F81-FC0D-4F22-A656-A24F654EE121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7EF80AC2-D19C-48E5-AEA1-71F6E535C19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF80AC2-D19C-48E5-AEA1-71F6E535C19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF80AC2-D19C-48E5-AEA1-71F6E535C19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48820F81-FC0D-4F22-A656-A24F654EE121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48820F81-FC0D-4F22-A656-A24F654EE121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48820F81-FC0D-4F22-A656-A24F654EE121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48820F81-FC0D-4F22-A656-A24F654EE121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
